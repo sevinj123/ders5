@@ -1,0 +1,39 @@
+.navbar{
+    height: 100px;
+    background: rgb(255, 255, 255);
+    margin: 0% 10%;
+    .logo{
+        display: inline-block;
+        margin-left: 180px;
+        margin-top: 0px;
+    }
+    .logo a{
+        text-decoration: none;
+        font-size: 70px;
+        font-family: sans-serif;
+        color: #000000;
+        background-color: #000000;
+    }
+}
+.navbar ul{
+    float: right;
+    margin-right: 180px;
+    li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 8px;
+        line-height: 80px;
+        a{
+            color: #000000;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 6px 13px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: #ff9900; 
+    border-radius: 1px;
+}
